@@ -1,12 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 50%;
-    height: 400px;
-    margin: 0 auto;
-    background: aquamarine;
+.container {
+  width: 50%;
+  height: 400px;
+  margin: 30px auto;
+  background: aquamarine;
+  background-image: linear-gradient(#659999, #f4791f);
+}
+
+.header {
+  height: 650px;
+  background-image: linear-gradient(#7a86b6, #f8cdda49), url(img/amplificador.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0.1px;
+}
+
+.title {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 90px;
+  color: #dee2e6;
+  font-family: Arial;
 }
