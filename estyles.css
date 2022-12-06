@@ -1,23 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url(moroccan-flower-dark.webp);
+body {
+  /* background-image: url(moroccan-flower-dark.webp);  */
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.container{
-    width: 70%;
-    height: 300px;
-    margin: 30px auto;
-    background: rgb(100,100,250);
+.container {
+  width: 70%;
+  height: 500px;
+  margin: 30px auto;
+  background: rgb(100, 100, 250);
 
-    /* background-color: transparent; */
-    background-image: url(marvel-spiderman-removebg.png), url(cloud-solid-48\ \(1\).png);
-    background-repeat: no-repeat;
-    background-position: 30px 100px;
-    
-    
+  /* background-color: transparent; */
+  background-image: url(marvel-spiderman-removebg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.atachment {
+  margin-top: 100px;
+  width: 40%;
+  height: 400px;
+  background-image: url(img/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fixed{
+    background-attachment: fixed;
+}
+
+.title {
+  font-size: 70px;
+  font-family: Arial;
+  text-align: center;
+  color: #FA7E61;
+  margin-top: 100px;
+}
+.space{
+    height: 3000px;
+
 }
