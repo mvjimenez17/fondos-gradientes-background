@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(moroccan-flower-dark.webp);
+}
+
+.container{
+    width: 70%;
+    height: 300px;
+    margin: 30px auto;
+    background: rgb(100,100,250);
+
+    /* background-color: transparent; */
+    background-image: url(marvel-spiderman-removebg.png), url(cloud-solid-48\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 30px 100px;
+    
+    
+}
